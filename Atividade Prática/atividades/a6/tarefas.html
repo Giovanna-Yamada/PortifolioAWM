@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <form>
+        <label for="tarefa">Adicionar tarefa: </label>
+        <input type="text" name="tarefa" id="tarefa">
+        <button type="button" onclick="adcTarefa()">Adicionar</button>
+    </form>
+    <ul id="lista-de-tarefas">
+        <script>
+            function adcTarefa() {
+                let campoTarefa = document.getElementById("tarefa");
+                let listaTarefas = document.getElementById("lista-de-tarefas")
+
+                let novaTarefa = document.createElement("li")
+                novaTarefa.textContent = campoTarefa.value;
+                listaTarefas.appendChild(novaTarefa);
+
+                campoTarefa.value = "";
+            }
+        </script>
+    </ul>
+</body>
+</html>

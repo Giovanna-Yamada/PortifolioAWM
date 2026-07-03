@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    background: url(img/eletricista1.png) no-repeat center;
+    height: 600px;
+    height: 600px;
+    top: 0;
+}
+
+.centraliza_img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.abaixo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -99;
+    margin: 0 auto;
+}
+
+ul, li {
+    width: 300px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #e80505;
+}
+
+li, a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fontedes {
+    font-size: 5rem;
+    color: blue;
+}
+
+.aside1 {
+    top: 450;
+    float: right;
+    width: 25%;
+}
+
+.setecinco {
+    float: left;
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+        }
+
+.fundo_preto {
+    background: url(notuno.png) no-repeat center;
+    background-color: #000;
+    height: 234px;
+    clear: both;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.servicos {
+    background-color: #e88a0b;
+    border-radius: 10px;
+    width: 216px;
+    height: 254px;
+    display: inline-flex;
+    color: white;
+    padding: 20px;
+}
+
+.centraliza_div {
+    display: inline-block;
+    text-align: center;
+}
+
+th{
+    text-align: left;       
+}
+
+td{
+    padding: 10px;
+}
+
+input[type=submit]{
+    background-color:#f3ac13;
+    color:white;
+    border: #f3ac13;
+}
