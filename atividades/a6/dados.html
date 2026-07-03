@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dados</title>
+</head>
+<body>
+    <h1>Dados</h1>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+    <br>
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade" name="cidade">
+    
+    <script>
+        let nome = localStorage.getItem("nome");
+        let cidade = localStorage.getItem("cidade");
+    
+        document.getElementById("nome").value = nome;
+        document.getElementById("cidade").value = cidade;
+    </script>
+</body>
+</html>
